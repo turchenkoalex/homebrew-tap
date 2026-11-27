@@ -2,25 +2,25 @@
 class Martty < Formula
   desc "Markdown viewer for Ghostty with images, diagrams, math and a pager"
   homepage "https://turchenkoalex.github.io/martty/"
-  version "0.1.6"
+  version "0.1.7"
   license "Apache-2.0"
 
   on_macos do
     depends_on arch: :arm64
 
-    url "https://github.com/turchenkoalex/martty/releases/download/v0.1.6/martty-aarch64-apple-darwin.tar.gz"
-    sha256 "1934dfe95d3e67b286d6da2aea3a1cae839f9c755c5979dcdcc8a64beb580803"
+    url "https://github.com/turchenkoalex/martty/releases/download/v0.1.7/martty-aarch64-apple-darwin.tar.gz"
+    sha256 "3711285c020ce2145e1ba5d921fd0db28121d6bcc3c64f0af91da51f5c3f1205"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/turchenkoalex/martty/releases/download/v0.1.6/martty-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "1403109bc43f2e325136141f9b5df7dee644d5ed568afb2f0428677de6a39e88"
+      url "https://github.com/turchenkoalex/martty/releases/download/v0.1.7/martty-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "e9241309d65a43cd077aad61cf4fb42cfb8e84fe9ce3c4b4ffcb00b21c60f3a7"
     end
 
     on_arm do
-      url "https://github.com/turchenkoalex/martty/releases/download/v0.1.6/martty-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "27d1c8ee9161b8eec2bdb89249d84450a3099815bc012813379b23e9eb551abd"
+      url "https://github.com/turchenkoalex/martty/releases/download/v0.1.7/martty-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "685b828b6c97604a0e7a4e717ffdb334d2f22744706e1a17fa8d8b5e70a2a684"
     end
   end
 
